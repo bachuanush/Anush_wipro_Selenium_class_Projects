@@ -60,7 +60,7 @@ public class Day_19_Ass {
 		
 		//For screenshot
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File dest=new File("screenshot1.png");
+		File dest=new File("screenshot6.png");
 		Files.copy(src.toPath(), dest.toPath(),StandardCopyOption.COPY_ATTRIBUTES);
 		
 		driver.findElement(By.id("react-burger-menu-btn")).click();

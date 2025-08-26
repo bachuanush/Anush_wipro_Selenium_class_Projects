@@ -5,8 +5,14 @@
     <classes>
       <class name="Testing.Ebay_Test_Assgn">
         <methods>
+          <include name="chngeAddress"/>
+          <include name="ShopByAllCatgy"/>
+          <include name="ShopByCatgy"/>
           <include name="addToCartTest"/>
           <include name="afterTest"/>
+          <include name="multipleSearchTest"/>
+          <include name="loginTest"/>
+          <include name="deleteFromCartTest"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- Testing.Ebay_Test_Assgn -->
