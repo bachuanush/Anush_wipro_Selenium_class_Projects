@@ -19,7 +19,7 @@ public class Wait_Example {
 	  public void implicitwait() throws InterruptedException {
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-         }
+     }
 
 
 
@@ -42,8 +42,7 @@ public class Wait_Example {
 
 	  WebElement add= driver.findElement(By.name("gf"));
 	  add.click();
-	  
-	  driver.close()
-;
+
+	  driver.close();
   }
 }

@@ -7,5 +7,14 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="D:/Selenium_jar/selenium-server-4.34.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shashank/.m2/repository/com/codoid/products/fillo/1.22/fillo-1.22.jar" sourcepath="C:/Users/shashank/.m2/repository/com/codoid/products/fillo/1.22/fillo-1.22-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.codoid.products"/>
+			<attribute name="maven.artifactId" value="fillo"/>
+			<attribute name="maven.version" value="1.22"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

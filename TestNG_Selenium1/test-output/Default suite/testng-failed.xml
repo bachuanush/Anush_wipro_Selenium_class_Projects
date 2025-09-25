@@ -3,19 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testing.Ebay_Test_Assgn">
+      <class name="T2_Prac.Pract_2">
         <methods>
-          <include name="chngeAddress"/>
-          <include name="ShopByAllCatgy"/>
-          <include name="ShopByCatgy"/>
-          <include name="addToCartTest"/>
-          <include name="afterTest"/>
-          <include name="multipleSearchTest"/>
-          <include name="loginTest"/>
-          <include name="deleteFromCartTest"/>
-          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="Country_Drop_Down"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- Testing.Ebay_Test_Assgn -->
+      </class> <!-- T2_Prac.Pract_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

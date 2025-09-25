@@ -1,6 +1,5 @@
 package Sele_pack;
 
-import java.sql.DriverManager;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
